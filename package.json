@@ -1,6 +1,6 @@
 {
   "name": "xyz-affair",
-  "version": "0.0.9",
+  "version": "0.9.1",
   "description": "Generate a list of x/y/z Spherical Mercator tiles based on a bounding box and a zoom level.",
   "main": "index.js",
   "scripts": {

@@ -13,12 +13,12 @@ Generates a list of x/y/z Spherical Mercator tiles based on a bounding box and a
 
     var bounds = [
       [
-        -0.2959442138671875, //minimum longitude (west)
-        51.355060037261666, //minimum latitude (south)
+        -74.00596618652344, //minimum longitude (west)
+        40.64417760251725, //minimum latitude (south)
       ],
       [
-        0.1160430908203125, //maximum longitude (east)
-        51.65424090518717 //maximum latitude (north)
+        -73.90502929687499, //maximum longitude (east)
+        40.797957124643666 //maximum latitude (north)
       ]
     ];
 
@@ -29,14 +29,14 @@ Generates a list of x/y/z Spherical Mercator tiles based on a bounding box and a
       Returns an array of x/y/z objects, like:
       [
         {
-          "z": 13,
-          "x": 4089,
-          "y": 2718
+          "x": 2411,
+          "y": 3077,
+          "z": 13
         },
         {
-          "z": 13,
-          "x": 4089,
-          "y": 2719
+          "x": 2411,
+          "y": 3078,
+          "z": 13
         },
         ...
       ]
