@@ -1,0 +1,26 @@
+{
+  "name": "xyz-affair",
+  "version": "0.0.9",
+  "description": "Generate a list of x/y/z Spherical Mercator tiles based on a bounding box and a zoom level.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/veltman/xyz-affair.git"
+  },
+  "keywords": [
+    "xyz",
+    "tiles",
+    "maps",
+    "leaflet",
+    "projection"
+  ],
+  "author": "Noah Veltman (@veltman)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/veltman/xyz-affair/issues"
+  },
+  "homepage": "https://github.com/veltman/xyz-affair"
+}
