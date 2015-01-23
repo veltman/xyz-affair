@@ -47,9 +47,8 @@ Those x/y/z coordinates can be used with standard map tile systems and URLs.
 
 You can also supply an optional third argument to get back a list that covers multiple zoom levels:
 
-//You'll get back tiles for zooms 13 through 18. This will be a very long list.
-
 ```js
+//You'll get back tiles for zooms 13 through 18. This will be a very large array.
 var tiles = xyz(bounds,13,18);
 ```
 
